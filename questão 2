@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <math.h>
+int main(void) {
+  float n1, n2, n3, media,p4, menor, mediafinal;
+  printf("a nota 1 eh\n");
+  scanf("%f", &n1);
+    printf("a nota 2 eh\n");
+    scanf("%f", &n2);
+     printf("a nota 3 eh\n");
+     scanf("%f", &n3);
+     media = (n1+n2+n3)/3;
+     printf("media eh: %f\n", media);
+      
+      
+      if ((media >= 5)&&(n1>=3)&&(n2>=3)&&(n3>=3))
+      {
+        printf("tu passou");}
+        else 
+          if (media>=7){
+          printf("tu passou");
+          }
+        
+        else {
+          
+        printf("tomou no cu, porem depende\n");
+        printf("fazer p4, a nota da p4 e: \n");
+        scanf ("%f", &p4);
+        if ((n1<n2)&&(n1<n3)){
+          printf("menor nota e: %f", n1);
+          menor = n1;
+        }
+        if ((n2<n1)&&(n2<n3)){
+          printf("menor nota e: %f", n2);
+          menor = n2;
+              }
+              if ((n3<n1)&&(n3<n2)){
+          printf("menor nota e: %f", n3);
+          menor = n3;
+          }
+          //if ((media - menor)+(p4)/(3)>=5){
+          mediafinal = (media-menor)+(p4)/(3);
+          if (mediafinal >= 5){
+
+
+          printf("nova media eh: %f", mediafinal);
+          printf("yay, tu passou");}
+          //}
+          else{
+            printf("na proxima da certo");
+          }
+
