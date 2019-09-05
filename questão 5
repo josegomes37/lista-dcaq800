@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void) {
+  float raio, h, pi, area; 
+  printf("informar a area de um cilindro\n");
+  printf("digite valor usado para pi: ");
+  scanf("%f", &pi);
+  printf("digite valor usado para o raio: ");
+  scanf("%f", &raio);
+  printf("digite valor usado para h: ");
+  scanf("%f", &h);
+  area = ((raio*raio)*pi)*(h); 
+  printf("a area do cilindro eh: %f", area);
+
+  return 0;
+}
