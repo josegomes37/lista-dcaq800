@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(){
+    float n1, n2, n3;
+
+    printf("numero 1: ");
+    scanf("%f", &n1);
+    printf("numero 2: ");
+    scanf("%f", &n2);
+    printf("numero 3: ");
+    scanf("%f", &n3);
+
+    if(n1>n2+n3){
+        printf("o 1° é maior que a soma do 2° + 3°.");
+    }else{
+        printf("o 1° é menor que a soma do 2° + 3°.\n");
+    }
+}
