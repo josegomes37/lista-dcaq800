@@ -1,0 +1,26 @@
+//Ler três valores e determinar o maior dentre eles
+#include <stdio.h>
+
+int main(void) {
+  float n1, n2, n3;
+  printf("o numero 1 eh :");
+  scanf("%f", &n1);
+  printf("o numero 2 eh :");
+  scanf("%f", &n2);
+  printf("o numero 3 eh :");
+  scanf("%f", &n3);
+  if((n1>n2)&&(n1>n3)){
+    printf("o maior numero e o 1ª");
+  }
+  else {
+     if((n2>n1)&&(n2>n3)){
+    printf("o maior numero e o 2ª");
+  }
+  else {
+    if((n3>n1)&&(n3>n2)){
+    printf("o maior numero e o 3ª");
+  }          }
+  }
+
+  return 0;
+}
