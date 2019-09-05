@@ -1,0 +1,21 @@
+//Ler dois números inteiros, x e y, e imprimir o quociente e o resto da divisão inteira entre eles.
+#include <stdio.h>
+#include <math.h>
+
+int main(void) {
+  float div;
+  int x, y, resto;
+  
+  printf("o numero 1 eh: \n");
+  scanf("%d", &x);
+   printf("o numero 2 eh: \n");
+  scanf("%d", &y);
+  //printf("o quociente da divisão e\n");
+  div = (x/y);
+  printf(" divisao eh: %1.2f\n", div);
+  resto = x % y;//
+  printf("o resto eh %d", resto);
+
+
+  return 0;
+}
