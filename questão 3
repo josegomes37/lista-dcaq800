@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+    float time, valor, quantidade, total, pre;
+
+    printf("calcular gasto com cigarro:\n");
+    printf("tempo que fuma?");
+    scanf("%f", &tempo);
+    printf("valor de um maço");
+    scanf("%f", &valor);
+    printf("Quantos cigarros por dia?");
+    scanf("%f", &quantidade);
+
+    pre = valor/20;
+    total = (tempo*365)*(pre*quantidade);
+    printf("tu perdeu R$ %1.2f reais com cigarro\n", total);
+}
