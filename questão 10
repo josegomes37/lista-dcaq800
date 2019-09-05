@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <math.h>
+int main(void) {
+  float Vcarro, Vpista;
+
+  printf("A velocidado do carro eh: \n");
+  scanf("%f", &Vcarro);
+  printf("A velocidado da pista eh: \n");
+  scanf("%f", &Vpista);
+  if (Vcarro-Vpista <= 10){
+    printf("a multa sera de 50 reais");
+  }
+  else {
+    if ((Vcarro - Vpista <=30)&&(Vcarro - Vpista >10)){
+      printf("a multa sera de 100 reais");
+    }
+    else {
+      if (Vcarro - Vpista > 30){
+        printf("a multa sera de 200 reais");
+      }
+
+    }
+  }
+  
+
+  return 0;
+}
