@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(){
+    float n1, n2;
+
+    printf("numero 1: ");
+    scanf("%f", &n1);
+    printf("numero 2: ");
+    scanf("%f", &n2);
+
+    if(n1>n2){
+        printf("o 1° número é maior que o 2°\n");
+    }else{
+        if(n2>n1){
+        printf("o 2° número é maior que o 1°\n");
+    }else{
+        if(n1=n2){
+        printf("ambos são iguais\n");
+       }
+     }
+  }
+}
